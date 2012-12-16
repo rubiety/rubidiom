@@ -4,7 +4,7 @@
 
 # Susy grids in Compass
 # First: gem install susy --pre
-# require 'susy'
+require 'susy'
 
 # Change Compass configuration
 # compass_config do |config|
@@ -47,11 +47,18 @@
 #   end
 # end
 
-set :css_dir, 'css'
+set :css_dir, 'stylesheets'
+set :js_dir, 'javascripts'
+set :images_dir, 'images'
 
-set :js_dir, 'js'
+###
+# HAML
+###
 
-set :images_dir, 'img'
+require "haml"
+
+Haml::Template.options[:attr_wrapper] = '"'
+
 
 # Build-specific configuration
 configure :build do
