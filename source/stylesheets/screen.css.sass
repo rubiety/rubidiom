@@ -30,22 +30,39 @@
 // Project Styles:
 
 
+body
+  background-color: #A62626
+
 .container
-  margin: 0 auto
-  padding: 0 150px
-  min-width: 300px
-  max-width: 600px
+  #main-header, #main-content, #main-footer
+    min-width: 300px
+    max-width: 600px
+
   h1
-    color: #333
-    font-size: 64px
+    font-size: 72px
     padding-top: 15px
+    margin: 0
   h2
-    color: #666
     padding-top: 10px
+    margin: 0
   p
     line-height: 1.5em
-  footer
-    margin-top: 3em
+    margin: 0
+
+.header-container, .content-container, .footer-container
+  margin: 0 auto
+  padding: 0 150px
+
+.header-container
+  background-color: #FF9999
+  border-bottom: 1px solid #A62626
+.content-container
+  background-color: #FFB4B4
+  min-height: 300px
+.footer-container
+  padding-top: 10px
+  color: #EEEEEE
+
 
 
 

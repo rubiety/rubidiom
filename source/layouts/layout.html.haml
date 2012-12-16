@@ -27,12 +27,15 @@
         You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
 
     .container
-      %header 
-        %h1= @title
-      #main-content{:role => "main"}
-        = yield
-      %footer
-        %p &copy; 2012 Rubidiom, LLC
+      .header-container
+        %header#main-header
+          %h1= @title
+      .content-container
+        #main-content{:role => "main"}
+          = yield
+      .footer-container
+        %footer#main-footer
+          %p &copy; 2012 Rubidiom, LLC
         
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
     :javascript
