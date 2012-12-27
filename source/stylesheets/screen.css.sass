@@ -29,41 +29,36 @@
 
 // Project Styles:
 
+$background-color: #A62626
 
 body
-  background-color: #A62626
+  background-color: $background-color
+  color: #FFFFFF
 
 .container
-  #main-header, #main-content, #main-footer
-    min-width: 300px
-    max-width: 600px
-
-  h1
-    font-size: 72px
-    padding-top: 15px
-    margin: 0
-  h2
-    padding-top: 10px
-    margin: 0
-  p
-    line-height: 1.5em
-    margin: 0
-
-.header-container, .content-container, .footer-container
   margin: 0 auto
-  padding: 0 150px
+  padding: 150px
+  width: 760px
 
-.header-container
-  background-color: #FF9999
-  border-bottom: 1px solid #A62626
-.content-container
-  background-color: #FFB4B4
-  min-height: 300px
-.footer-container
+
+a, a:hover, a:visited
+  color: #FFFFFF
+  text-decoration: underline
+a:hover
+  text-decoration: none
+h1
+  font-size: 96px
+  padding-top: 15px
+  margin: 0
+h2
+  font-size: 32px
   padding-top: 10px
-  color: #EEEEEE
-
-
+  padding-bottom: 10px
+  margin: 0
+h3
+  font-size: 20px
+  padding-top: 10px
+  margin: 0
 
 
 // These imports should remain below the bulk of the stylesheet so they can override correctly.
