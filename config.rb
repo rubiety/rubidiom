@@ -82,3 +82,17 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+###
+# Deploy
+###
+
+activate :deploy do |deploy|
+  deploy.method = :rsync
+  deploy.user = "apps"
+  deploy.host = "rubidiom.com"
+  deploy.port = 2234
+  deploy.path = "/var/www/rubidiom.com/current"
+end
+
+
