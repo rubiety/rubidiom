@@ -88,11 +88,9 @@ end
 ###
 
 activate :deploy do |deploy|
-  deploy.method = :rsync
-  deploy.user = "apps"
-  deploy.host = "rubidiom.com"
-  deploy.port = 2234
-  deploy.path = "/var/www/rubidiom.com/current"
+  deploy.method = :git
+  deploy.remote = "dokku@hancock.rubidiom.com:rubidiom"
+  deploy.branch = "master"
 end
 
 
