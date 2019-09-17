@@ -84,11 +84,3 @@ end
 ###
 # Deploy
 ###
-
-activate :deploy do |deploy|
-  deploy.method = :git
-  deploy.remote = "dokku@hancock.rubidiom.com:rubidiom"
-  deploy.branch = "master"
-end
-
-
