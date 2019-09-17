@@ -57,8 +57,6 @@ set :images_dir, 'images'
 
 require "haml"
 
-Haml::Template.options[:attr_wrapper] = '"'
-
 
 # Build-specific configuration
 configure :build do
