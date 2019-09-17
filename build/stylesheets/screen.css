@@ -1,0 +1,395 @@
+/* line 23, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block; }
+
+/* line 25, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/* line 29, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+audio:not([controls]) {
+  display: none; }
+
+/* line 31, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+[hidden] {
+  display: none; }
+
+/* line 41, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 47, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+body {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.231; }
+
+/* line 52, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+body, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #222; }
+
+/* line 59, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+::-moz-selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none; }
+
+/* line 63, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+::selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none; }
+
+/* line 73, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+a {
+  color: #00e; }
+  /* line 75, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+  a:visited {
+    color: #551a8b; }
+  /* line 77, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+  a:hover {
+    color: #06e; }
+  /* line 79, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+  a:focus {
+    outline: thin dotted; }
+  /* line 83, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+  a:hover, a:active {
+    outline: 0; }
+
+/* line 91, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 94, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+b, strong {
+  font-weight: bold; }
+
+/* line 97, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+blockquote {
+  margin: 1em 40px; }
+
+/* line 100, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+dfn {
+  font-style: italic; }
+
+/* line 103, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/* line 111, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* line 116, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+/* line 123, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+pre, code, kbd, samp {
+  font-family: monospace, monospace;
+  _font-family: "courier new", monospace;
+  font-size: 1em; }
+
+/* line 129, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* line 134, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+q {
+  quotes: none; }
+  /* line 136, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+  q:before, q:after {
+    content: "";
+    content: none; }
+
+/* line 140, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+small {
+  font-size: 85%; }
+
+/* line 144, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 149, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+sup {
+  top: -0.5em; }
+
+/* line 151, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+sub {
+  bottom: -0.25em; }
+
+/* line 159, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px; }
+
+/* line 162, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+dd {
+  margin: 0 0 0 40px; }
+
+/* line 164, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 177, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle; }
+
+/* line 183, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 191, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+figure {
+  margin: 0; }
+
+/* line 199, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+form {
+  margin: 0; }
+
+/* line 201, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/* line 207, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+label {
+  cursor: pointer; }
+
+/* line 212, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0; }
+
+/* line 220, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle; }
+
+/* line 228, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+button, input {
+  line-height: normal;
+  *overflow: visible; }
+
+/* line 233, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+table button, table input {
+  *overflow: auto; }
+
+/* line 238, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button; }
+
+/* line 243, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box; }
+
+/* line 245, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* line 250, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 254, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 260, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical; }
+
+/* line 267, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+input:invalid, textarea:invalid {
+  background-color: #f0dddd; }
+
+/* line 275, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 278, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_main.sass */
+td {
+  vertical-align: top; }
+
+/* line 34, /Users/bhughes/Workspace/rubidiom/source/stylesheets/screen.css.sass */
+body {
+  background-color: #A62626;
+  color: #FFFFFF; }
+
+/* line 38, /Users/bhughes/Workspace/rubidiom/source/stylesheets/screen.css.sass */
+.container {
+  margin: 0 auto;
+  padding: 150px;
+  width: 760px; }
+
+/* line 44, /Users/bhughes/Workspace/rubidiom/source/stylesheets/screen.css.sass */
+a, a:hover, a:visited {
+  color: #FFFFFF;
+  text-decoration: underline; }
+
+/* line 47, /Users/bhughes/Workspace/rubidiom/source/stylesheets/screen.css.sass */
+a:hover {
+  text-decoration: none; }
+
+/* line 49, /Users/bhughes/Workspace/rubidiom/source/stylesheets/screen.css.sass */
+h1 {
+  font-size: 96px;
+  padding-top: 15px;
+  margin: 0; }
+
+/* line 53, /Users/bhughes/Workspace/rubidiom/source/stylesheets/screen.css.sass */
+h2 {
+  font-size: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0; }
+
+/* line 58, /Users/bhughes/Workspace/rubidiom/source/stylesheets/screen.css.sass */
+h3 {
+  font-size: 20px;
+  padding-top: 10px;
+  margin: 0; }
+
+/* line 7, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_nonsemantichelpers.sass */
+.ir {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr; }
+  /* line 16, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_nonsemantichelpers.sass */
+  .ir br {
+    display: none; }
+
+/* line 20, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_nonsemantichelpers.sass */
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+/* line 25, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_nonsemantichelpers.sass */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+  /* line 36, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_nonsemantichelpers.sass */
+  .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto; }
+
+/* line 45, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_nonsemantichelpers.sass */
+.invisible {
+  visibility: hidden; }
+
+/* line 49, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_nonsemantichelpers.sass */
+.clearfix {
+  zoom: 1; }
+  /* line 51, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_nonsemantichelpers.sass */
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table; }
+  /* line 54, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_nonsemantichelpers.sass */
+  .clearfix:after {
+    clear: both; }
+
+@media print {
+  /* line 23, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_mediaqueries.sass */
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important; }
+
+  /* line 29, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_mediaqueries.sass */
+  a, a:visited {
+    text-decoration: underline; }
+
+  /* line 31, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_mediaqueries.sass */
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  /* line 33, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_mediaqueries.sass */
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /* line 36, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_mediaqueries.sass */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: ""; }
+
+  /* line 38, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_mediaqueries.sass */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  /* line 41, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_mediaqueries.sass */
+  thead {
+    display: table-header-group; }
+
+  /* line 44, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_mediaqueries.sass */
+  tr, img {
+    page-break-inside: avoid; }
+
+  /* line 46, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_mediaqueries.sass */
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+  /* line 50, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_mediaqueries.sass */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3; }
+
+  /* line 53, /Users/bhughes/Workspace/rubidiom/source/stylesheets/partials/h5bp/_mediaqueries.sass */
+  h2, h3 {
+    page-break-after: avoid; } }
