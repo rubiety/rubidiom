@@ -5,8 +5,8 @@ Simple static website for Rubidiom, LLC.
 
 ## Deploying
 
-Hosting is handled by dokku as a static site with the [buildpack-nginx](https://github.com/dokku/buildpack-nginx) buildpack:
+Hosting is handled by dokku as a static site with the [buildpack-nginx](https://github.com/dokku/buildpack-nginx) buildpack (specified in `.env`).
 
-    $ dokku buildpacks:add rubidiom https://github.com/dokku/buildpack-nginx.git
+Configuration:
 
-We use [middleman-deploy](https://fullstackstanley.com/read/using-middleman-with-dokku-updated) to push to dokku.
+    NGINX_ROOT=build
